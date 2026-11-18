@@ -26,5 +26,5 @@ const login = () => {
     } else {
         error.value = "Неверный пароль";
     }
-    };
+};
 </script>
