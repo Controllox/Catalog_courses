@@ -13,7 +13,7 @@
             </button>
         </div>
         <div v-if="loading">
-            <p>🌀 Загрузка...</p>
+            <p>Загрузка...</p>
         </div>
         <ul v-else style="list-style: none; padding: 0;">
             <li v-for="course in filteredCourses" :key="course.id" 
